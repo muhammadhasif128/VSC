@@ -15,8 +15,7 @@ def name():
 name()
 print("Who is " + x)"""
 
-#global keywords = once "global" is used, it can be used outside the function, not local anymore. global means it will use the variable outside function unless its not there.
-#if its not there, it will automatically make a local variable, global
+#global keywords = when you want to edit variables that are outside of a function, declare global
 """h = "hasif"
 def whatisyourname():
     global h
@@ -33,3 +32,18 @@ print(a)"""
 """import random
 print(random.randrange(1,4))"""
 
+#format - when you have diff types of variables like num and strings BUT you want to combine
+"""name = "Hasif"
+age = 19
+course = "Infocomm Security"
+x = "My name is {}. I am {} years old. I am from {}."
+print(x.format(name, age, course))"""
+
+#escape characters = when you try to put "" in a string
+"""txt = "Hasif is so called \"too smart\" haha."
+print(txt)"""
+
+#insert command
+"""about_me = [19, 'lame', 'hardworking']
+about_me.insert(2, 'loves to eat')
+print(about_me)"""
