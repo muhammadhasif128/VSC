@@ -47,3 +47,13 @@ print(txt)"""
 """about_me = [19, 'lame', 'hardworking']
 about_me.insert(2, 'loves to eat')
 print(about_me)"""
+
+#slicing = if positive 2:5 means 2-4. If -4:-1 means from the back, -1 to -4, ignore -1
+"""b = "Hello, World!"
+print(b[-5])"""
+
+#continue, skip that if condition but continue with the rest
+"""for i in range(9):
+  if i == 3:
+    continue
+  print(i)"""
