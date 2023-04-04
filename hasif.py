@@ -57,3 +57,17 @@ print(b[-5])"""
   if i == 3:
     continue
   print(i)"""
+
+#indexing works in tuple too
+"""x = ("h", "j", "k")
+print(x[1])"""
+
+#1 asterik in function - for tuple calling of a function
+"""def my_function(*kids):
+  print("The youngest child is " + kids[2])
+my_function("Emil", "Tobias", "Linus")"""
+
+#2 asterik in function - for dictionary calling of a function
+"""def my_function(**kid):
+  print("His last name is " + kid["lname"])
+my_function(fname="Tobias", lname="Refsnes")"""
